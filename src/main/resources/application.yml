@@ -1,0 +1,20 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: rsservice
+
+cloud:
+  aws:
+    credentials:
+      accessKey:
+      secretKey:
+
+    region:
+      static: us-east-2
+    s3:
+      bucket: s3test-bna
+
+    streamname: TestStream
+    statementStream: stmStream
